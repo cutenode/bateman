@@ -3,7 +3,6 @@
 const cli = require('commander')
 const boxen = require('boxen')
 const normalize = require('normalize-url')
-const logger = require('../helpers/logger')
 const fetch = require('../helpers/fetch')
 const output = require('../helpers/output')
 
