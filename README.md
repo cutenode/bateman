@@ -2,7 +2,9 @@
 
 bateman is an extension of npm cards, which allows you to remotely fetch a `card.json` file and display it prettily as a npm card.
 
-<img src="./img/bateman-demo.gif" align="middle" width="500" alt="Example of `bateman` running `bateman bnb.im` within Hyper">
+<div align="center">
+  <img src="./img/bateman-demo.gif" width="500" alt="Example of `bateman` running `bateman bnb.im` within Hyper">
+</div>
 
 ## Usage
 
