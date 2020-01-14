@@ -1,0 +1,35 @@
+{
+	"name": "Hiro Protagonist",
+	"handle": "protagonist",
+	"website": "https://hiro.protagonist.org",
+	"pronouns": "he/him",
+	"work": {
+		"title": "Delivery Advocate",
+		"company": "Mafia"
+	},
+	"code": {
+		"npm": "https://npm.im/~protagonist",
+		"github": "https://github.com/protagonist"
+	},
+	"social": {
+		"twitter": "https://twitter.com/protagonist",
+		"instagram": "https://instagram.com/protagonist",
+		"snapchat": "https://snapchat.com/add/protagonist",
+		"facebook": "https://facebook.com/protagonist",
+		"twitch": "https://twitch.tv/protagonist",
+		"tiktok": "https://tiktok.com/protagonist",
+		"tumblr": "https://protagonist.tumblr.com",
+		"spotify": "https://open.spotify.com/user/01101000011100100110100101101111",
+		"youtube": "https://youtube.com/protagonist",
+		"vimeo": "https://vimeo.com/protagonist",
+		"linkedin": "https://linkedin.com/in/protagonist/"
+	},
+	"proofs": {
+		"keybase": "https://keybase.io/protagonist"
+	},
+  "support": {
+    "patreon": "https://patreon.com/protagonist",
+    "githubSponsors": "https://github.com/sponsors/protagonist",
+    "openCollective": "https://opencollective.com/protagonist"
+  }
+}
