@@ -1,13 +1,29 @@
 {
   "name": "bateman",
   "version": "1.0.0",
-  "description": "",
+  "description": "bateman is an extension of npm cards, which allows you to remotely fetch a `card.json` file and display it prettily as a npm card.",
   "main": "index.js",
   "scripts": {
     "test": "jest --collectCoverage"
   },
-  "bin": "bin/cli.js",
-  "keywords": [],
+  "bin": {
+    "bateman": "bin/cli.js"
+  },
+  "keywords": [
+    "npm card",
+    "npx card",
+    "card",
+    "npx",
+    "npm",
+    "business card",
+    "Paul Allen"
+  ],
+  "files": [
+    "bin/",
+    "helpers/",
+    "LICENSE.md",
+    "README.md"
+  ],
   "author": "Tierney Cyren <hello@bnb.im>",
   "license": "MIT",
   "dependencies": {
@@ -25,5 +41,13 @@
     "ignore": [
       "**/*.test.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cutenode/bateman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cutenode/bateman/issues"
+  },
+  "homepage": "https://github.com/cutenode/bateman#readme"
 }
