@@ -34,10 +34,9 @@ const labels = {
 function outputBuilder (data, fetchedURL) { // data is an object
   const strings = {
     newline: '\n',
-    heading: `              ${data.name} / ${data.handle}`,
-    website: `${labels.website}  ${data.website}`,
-    work: `${labels.work}  ${data.work}`,
-    pronouns: `${labels.pronouns}  ${data.pronouns}`
+    heading: `                 ${data.name} / ${data.handle}`,
+    website: `${labels.website}         ${data.website}`,
+    pronouns: `${labels.pronouns}        ${data.pronouns}`
   }
 
   let output = strings.heading +
@@ -54,7 +53,7 @@ function outputBuilder (data, fetchedURL) { // data is an object
     }
 
     if (data.work.title && data.work.company === undefined) {
-      output = output.concat('', `${labels.work}  ${data.work.title}${strings.newline}`)
+      output = output.concat('', `${labels.work}            ${data.work.title}${strings.newline}`)
     }
 
     if (data.work.title === undefined && data.work.company) {
